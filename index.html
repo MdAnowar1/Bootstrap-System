@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="navigation my-3">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">Bootstrap</a>
@@ -20,18 +20,18 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
+                  <li class="nav-item mx-3">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Features</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Download</a>
                   </li>
-                  <li class="nav-itemn">
+                  <li class="nav-itemn mx-3">
                     <a class="nav-link btn rounded-pill btn background-gradient text-white" href="#">
-                        <i class="fa-regular fa-comment"></i>Send Feedback</a>
+                      <i class="fa-solid fa-comment-dots"></i></i>Send Feedback</a>
                   </li>
                 </ul>
               </div>
@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-md-6">
                  <div>
-                 <h1 class="display-2 fw-bold">Showcase Your app Beautifully</h1>
+                 <h1 class="display-2 fw-bold text-color">Showcase Your app Beautifully</h1>
                  <p>Launch your mobile app landing page faster with this free, open source theme from short bootstarp</p>
                  <a href="">
                     <img src="images/app-store.png" alt="">
@@ -52,8 +52,16 @@
                  </div>
             </div>
             <div class="col-md-6">
-                 <img src="images/banner.png" alt="">
+                 <div class="d-flex justify-content-center align-items-center">
+                  <img src="images/banner.png" alt="">
+                 </div>
             </div>
+        </div>
+       </section>
+       <section>
+        <div class="background-gradient d-flex flex-column justify-content-center align-items-center py-5">
+          <h1 class="text-center text-white w-50 mb-3">An intuitive solution to common problem that we all face,wrapped up in a single app!</h1>
+          <img height="50" src="images/tnw-logo.svg" alt="">
         </div>
        </section>
     </main>
